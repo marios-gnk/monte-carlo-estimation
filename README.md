@@ -98,6 +98,8 @@ source("monte_carlo_estimation.R")
 ```
 
 ## 👨‍💻 Author
-Marios Giannakopoulos
+**Marios Giannakopoulos**
+
 Department of Mathematics
+
 National and Kapodistrian University of Athens
