@@ -80,6 +80,23 @@ where:
 - Plots illustrate the convergence of the estimators as the sample size increases.
 - Randomness may be lead to slight variations in numerical results.
 
+## ▶️ Running the Code
+
+1. Clone or download this repository.
+
+2. Open `MonteCarloEstimation.Rproj` in RStudio.
+
+3. Install the required package:
+
+```r
+install.packages("ggplot2")
+```
+4. Run the script:
+
+```r
+source("monte_carlo_estimation.R") 
+```
+
 ## 👨‍💻 Author
 Marios Giannakopoulos
 Department of Mathematics
