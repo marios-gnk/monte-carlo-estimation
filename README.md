@@ -13,13 +13,13 @@ The project consists of four main computational experiments:
 
 We estimate the integral:
 
-$$\displaystyle \int_{0}^{10} \left\(\cos(x)-\sin(x)\right\)^2 dx$$
+$$\displaystyle I=\int_{0}^{10} \left\(\cos(x)-\sin(x)\right\)^2 dx$$
 
 using a simulated random sample from the $\text{Uniform}(0,10)$ distribution.
 
 The estimator is:
 
-$$\displaystyle \frac{10}{n} \sum_{i=1}^n h(U_i) ,  U_i \sim \text{Uniform}(0,10)$$
+$$\displaystyle \hat{I}_n = \frac{10}{n} \sum_{i=1}^n h(U_i) ,  U_i \sim \text{Uniform}(0,10)$$
 
 where $h(x) = \left\( \cos(x) - \sin(x) \right\)^2$.
 
@@ -75,3 +75,12 @@ where:
 - $g$ is the probability density function of the $\text{Exp}(\theta = 100)$ distribution (the so-called importance function)
 - $Y_i \sim \text{Exp}(\theta = 100), i=1,2,\dots,n$ are independent random variables
 
+## ✍️ Notes
+- All experiments use $n=10^5$ simulations for consistency.
+- Plots illustrate the convergence of the estimators as the sample size increases.
+- Randomness may be lead to slight variations in numerical results.
+
+## 👨‍💻 Author
+Marios Giannakopoulos
+Department of Mathematics
+National and Kapodistrian University of Athens
