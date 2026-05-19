@@ -23,7 +23,9 @@ $$\displaystyle \hat{I}_n = \frac{10}{n} \sum_{i=1}^n h(U_i) ,  U_i \sim \text{U
 
 where $h(x) = \left\( \cos(x) - \sin(x) \right\)^2$.
 
-We then visualize the convergence of the estimator to the true value of the integral, computed using numerical integration.
+We visualize the convergence of the estimator to the true value of the integral, computed using numerical integration.
+
+![ ](figures/integral_convergence.png)
 
 ### 2. CDF Estimation (Cauchy Distribution) 
 
@@ -40,6 +42,8 @@ for selected values:
 The estimator is the empirical cumulative distribution function: 
 
 $$\displaystyle \hat{F}_n(x)=\frac{1}{n}\sum_{i=1}^{n}\mathbf{1}_{\left\\{X_i\le x\right\\}}, X_i\sim \text{Cauchy}(0,1)$$
+
+![ ](figures/cdf_convergence2.png)
 
 ### 3. Probability Estimation
 
@@ -74,6 +78,8 @@ where:
 - $f$ is the probability density function of the $\text{LogNormal}(0,1)$ distribution
 - $g$ is the probability density function of the $\text{Exp}(\theta = 100)$ distribution (the so-called importance function)
 - $Y_i \sim \text{Exp}(\theta = 100), i=1,2,\dots,n$ are independent random variables
+
+![ ](figures\importance_sampling_convergence.png)
 
 ## ▶️ Running the Code
 
