@@ -1,8 +1,10 @@
-# Monte Carlo Estimation of Integrals & Probabilities
+# Monte Carlo Estimation of Integrals & Probabilities (R)
 This repository contains an academic project completed as part of the course **Computational Statistics**.
 ## 📖 Overview
 
 This project focuses on the estimation of integrals and probabilities through the application of Monte Carlo methods, including Monte Carlo integration and importance sampling.
+
+All simulations are performed using a sample size of $n=10^5$
 
 ## 📃 Contents
 The project consists of four main computational experiments:
