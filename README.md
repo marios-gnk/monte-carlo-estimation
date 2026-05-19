@@ -2,9 +2,7 @@
 This repository contains an academic project completed as part of the course **Computational Statistics**.
 ## 📖 Overview
 
-The objective of this project is to estimate given integrals and probabilities using Monte Carlo methods such as Monte Carlo integration and importance sampling.
-
-All simulations are performed using a large sample size ($n=10^5$) to ensure stability and accuracy of the estimators.
+This project focuses on the estimation of integrals and probabilities through the application of Monte Carlo methods, including Monte Carlo integration and importance sampling.
 
 ## 📃 Contents
 The project consists of four main computational experiments:
