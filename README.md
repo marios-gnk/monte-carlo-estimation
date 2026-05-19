@@ -75,11 +75,6 @@ where:
 - $g$ is the probability density function of the $\text{Exp}(\theta = 100)$ distribution (the so-called importance function)
 - $Y_i \sim \text{Exp}(\theta = 100), i=1,2,\dots,n$ are independent random variables
 
-## ✍️ Notes
-- All experiments use $n=10^5$ simulations for consistency.
-- Plots illustrate the convergence of the estimators as the sample size increases.
-- Randomness may be lead to slight variations in numerical results.
-
 ## ▶️ Running the Code
 
 1. Clone or download this repository.
@@ -96,6 +91,11 @@ install.packages("ggplot2")
 ```r
 source("monte_carlo_estimation.R") 
 ```
+
+## ✍️ Notes
+- All experiments use $n=10^5$ simulations for consistency.
+- Plots illustrate the convergence of the estimators as the sample size increases.
+- Randomness may be lead to slight variations in numerical results.
 
 ## 👨‍💻 Author
 **Marios Giannakopoulos**
