@@ -4,7 +4,7 @@ This repository contains an academic project completed as part of the course **C
 
 This project focuses on the estimation of integrals and probabilities through the application of Monte Carlo methods, including Monte Carlo integration and importance sampling.
 
-All simulations are performed using a sample size of $n=10^5$
+All simulations are performed using a sample size of $n=10,000$
 
 ## 📃 Contents
 The project consists of four main computational experiments:
@@ -93,7 +93,7 @@ source("monte_carlo_estimation.R")
 ```
 
 ## ✍️ Notes
-- All experiments use $n=10^5$ simulations for consistency.
+- All experiments use $n=10,000$ simulations for consistency.
 - Plots illustrate the convergence of the estimators as the sample size increases.
 - Randomness may be lead to slight variations in numerical results.
 
