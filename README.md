@@ -52,7 +52,7 @@ where $X_i\sim \text{Cauchy}(0,1), i=1,2,\dots,n$ are i.i.d. random variables.
 
 ### 3. Probability Estimation
 
-We estimate:
+We estimate the probabilities:
 
 - $P(X < Y)$
 - $P(X + Y \ge 5)$
