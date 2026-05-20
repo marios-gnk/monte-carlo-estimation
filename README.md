@@ -81,6 +81,11 @@ where:
 
 ![ ](figures/importance_sampling_convergence.png)
 
+## ⚙️ Tools and Technologies Used
+- R
+- RStudio
+- ggplot2
+
 ## ▶️ Running the Code
 
 1. Clone or download this repository.
