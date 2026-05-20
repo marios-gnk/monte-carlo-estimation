@@ -61,7 +61,7 @@ The estimators are respectively:
 - $\frac{1}{n} \sum_{i=1}^{n} E\left\[F_X(Y_i)\right\]$
 - $1-\frac{1}{n} \sum_{i=1}^{n} E\left\[F_X(5-Y_i)\right\]$
 
-where $Y_i\sim\text{Geom}(0.4), i=1,2,\dots,n$ are independent random variables.
+where $Y_i\sim\text{Geom}(0.4), i=1,2,\dots,n$ are i.i.d. random variables.
 
 ### 4. Importance Sampling
 
@@ -79,7 +79,7 @@ where:
 
 - $f$ is the probability density function of the $\text{LogNormal}(0,1)$ distribution
 - $g$ is the probability density function of the $\text{Exp}(\theta = 100)$ distribution (the so-called importance function)
-- $Y_i \sim \text{Exp}(\theta = 100), i=1,2,\dots,n$ are independent random variables
+- $Y_i \sim \text{Exp}(\theta = 100), i=1,2,\dots,n$ are i.i.d. random variables
 
 ![ ](figures/importance_sampling_convergence.png)
 
