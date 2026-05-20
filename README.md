@@ -41,7 +41,9 @@ for selected values:
 
 The estimator is the empirical cumulative distribution function: 
 
-$$\displaystyle \hat{F}_n(x)=\frac{1}{n}\sum_{i=1}^{n}\mathbf{1}_{\left\\{X_i\le x\right\\}}, X_i\sim \text{Cauchy}(0,1)$$
+$$\displaystyle \hat{F}_n(x)=\frac{1}{n}\sum_{i=1}^{n}\mathbf{1}_{\left\\{X_i\le x\right\\}}$$
+
+where $X_i\sim \text{Cauchy}(0,1), i=1,2,\dots,n$ are i.i.d. random variables
 
 ![ ](figures/cdf_convergence3.png)
 
