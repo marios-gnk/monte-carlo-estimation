@@ -21,9 +21,12 @@ The estimator is:
 
 $$\displaystyle \hat{I}_n = \frac{10}{n} \sum_{i=1}^n h(U_i)$$
 
-where $h(x) = \left\( \cos(x) - \sin(x) \right\)^2$ and $U_i \sim \text{Uniform}(0,10), i=1,2,\dots,n$ are i.i.d. random variables.
+where:  
 
-We visualize the convergence of the estimator to the true value of the integral, computed using numerical integration.
+- $h(x) = \left\( \cos(x) - \sin(x) \right\)^2$
+- $U_i \sim \text{Uniform}(0,10), i=1,2,\dots,n$ are i.i.d. random variables
+
+We visualize the convergence of the estimator to the true value of the integral, computed using numerical integration:
 
 ![ ](figures/integral_convergence.png)
 
