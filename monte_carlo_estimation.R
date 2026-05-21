@@ -2,7 +2,7 @@
 # Integral Estimation                                                       ----
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 library(ggplot2)
-## For all exercises, we use n = 1e4 as a sample size.
+## For all experiments, we use n = 1e4 as a sample size.
 n <- 1e4
 obs_num <- 1:n
 
