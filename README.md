@@ -6,6 +6,8 @@ This project focuses on the estimation of integrals and probabilities through th
 
 All simulations are performed using a sample size of $n=10,000$.
 
+---
+
 ## 📃 Contents
 The project consists of four main computational experiments:
 
@@ -86,10 +88,14 @@ where:
 
 ![ ](figures/importance_sampling_convergence.png)
 
+---
+
 ## ⚙️ Tools and Technologies Used
 - R
 - RStudio
 - ggplot2
+
+---
 
 ## ▶️ Running the Code
 
@@ -108,10 +114,14 @@ install.packages("ggplot2")
 source("monte_carlo_estimation.R") 
 ```
 
+---
+
 ## ✍️ Notes
 - All experiments use $n=10,000$ simulations for consistency.
 - Plots illustrate the convergence of the estimators as the sample size increases.
 - Randomness may be lead to slight variations in numerical results.
+
+---
 
 ## 👨‍💻 Author
 **Marios Giannakopoulos**
