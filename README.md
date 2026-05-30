@@ -30,7 +30,7 @@ where:
 
 We visualize the convergence of the estimator to the true value of the integral, computed using numerical integration:
 
-![ ](figures/integral_convergence.png)
+<img src="figures/integral_convergence.png" width="500">
 
 ### 2. CDF Estimation (Cauchy Distribution) 
 
@@ -41,16 +41,22 @@ $$F(x)=P(X \le x), X\sim \text{Cauchy}(0,1)$$
 for selected values:
 
 - $x=-1$
+
+<img src="figures/cdf_convergence1.png" width="500">
+
 - $x=0$
+
+<img src="figures/cdf_convergence2.png" width="500">
+
 - $x=10$
+
+<img src="figures/cdf_convergence3.png" width="500">
 
 The estimator is the empirical cumulative distribution function: 
 
 $$\displaystyle \hat{F}_n(x)=\frac{1}{n}\sum_{i=1}^{n}\mathbf{1}_{\left\\{X_i\le x\right\\}}$$
 
 where $X_i\sim \text{Cauchy}(0,1), i=1,2,\dots,n$ are i.i.d. random variables.
-
-![ ](figures/cdf_convergence3.png)
 
 ### 3. Probability Estimation
 
@@ -86,7 +92,7 @@ where:
 - $g$ is the probability density function of the $\text{Exp}(\theta = 100)$ distribution (the so-called importance function)
 - $Y_i \sim \text{Exp}(\theta = 100), i=1,2,\dots,n$ are i.i.d. random variables
 
-![ ](figures/importance_sampling_convergence.png)
+<img src="figures/importance_sampling_convergence.png" width="500">
 
 ---
 
